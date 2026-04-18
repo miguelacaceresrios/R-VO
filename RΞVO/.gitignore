@@ -1,0 +1,42 @@
+﻿# Dependencias
+node_modules/
+package-lock.json
+yarn.lock
+
+# Variables de entorno (¡IMPORTANTE! Contiene el TOKEN)
+.env
+.env.local
+.env.*.local
+
+# Archivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.private/
+
+# Archivos de build y caché
+dist/
+build/
+.cache/
+.tmp/
+
+# Configuración de Replit
+.replit
+replit.nix
+
+# Archivos temporales de Windows
+*.tmp
+*.temp
