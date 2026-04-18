@@ -60,4 +60,16 @@ Permite ejecutar Node.js 24/7 si recibe tráfico constante. Tiene consola integr
 
 Hace ping cada 5 minutos a la URL del Replit para que nunca duerma el proceso. Es gratuito y no necesita instalar nada.
 
+</td></tr><tr><td colspan="2" align="center">
+
+<!-- BANNER: cuando tengas la imagen, reemplaza la línea del <img> -->
+<!-- Coloca el archivo en ./assets/banner.png y cambia el src -->
+
+<!-- ANTES: src="https://placehold.co/860x120/23272a/ffffff?text=Únete+a+RΞVO" -->
+<!-- DESPUÉS: src="./assets/banner.png" -->
+
+<a href="https://discord.gg/tuenlace">
+  <img src="https://placehold.co/860x120/23272a/ffffff?text=Únete+a+RΞVO" alt="Únete a RΞVO" width="100%" style="border-radius:8px"/>
+</a>
+
 </td></tr></table>
