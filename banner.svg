@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="120" viewBox="0 0 860 120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#23272a"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5865f2;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#5865f2;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#5865f2;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="860" height="120" fill="url(#bg)" rx="10"/>
+  <rect width="860" height="120" fill="url(#glow)" rx="10"/>
+
+  <!-- Línea superior e inferior animadas -->
+  <rect x="0" y="0" width="860" height="2" fill="#5865f2" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="0" y="118" width="860" height="2" fill="#5865f2" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Nota musical izquierda -->
+  <text x="60" y="72" font-size="36" fill="#5865f2" opacity="0.6" font-family="serif">♪</text>
+
+  <!-- Nota musical derecha -->
+  <text x="770" y="72" font-size="36" fill="#5865f2" opacity="0.6" font-family="serif">♫</text>
+
+  <!-- Texto principal con pulso -->
+  <text x="430" y="52" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#ffffff" letter-spacing="6">
+    RΞVO
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtexto -->
+  <text x="430" y="82" text-anchor="middle" font-family="monospace" font-size="13" fill="#5865f2" letter-spacing="3">
+    ÚNETE A NUESTRA COMUNIDAD
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </text>
+</svg>
