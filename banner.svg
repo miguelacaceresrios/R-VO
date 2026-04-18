@@ -1,44 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="120" viewBox="0 0 860 120">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#1a1a2e"/>
-      <stop offset="50%" style="stop-color:#23272a"/>
-      <stop offset="100%" style="stop-color:#1a1a2e"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#5865f2;stop-opacity:0"/>
-      <stop offset="50%" style="stop-color:#5865f2;stop-opacity:0.3"/>
-      <stop offset="100%" style="stop-color:#5865f2;stop-opacity:0"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="100%">
+  <rect width="860" height="200" fill="#0d0d0d"/>
 
-  <!-- Fondo -->
-  <rect width="860" height="120" fill="url(#bg)" rx="10"/>
-  <rect width="860" height="120" fill="url(#glow)" rx="10"/>
+  <!-- hojas izquierda -->
+  <ellipse cx="0" cy="60" rx="90" ry="30" fill="#1a2e1a" transform="rotate(-30 0 60)"/>
+  <ellipse cx="20" cy="40" rx="70" ry="22" fill="#162414" transform="rotate(-20 20 40)"/>
+  <ellipse cx="-10" cy="100" rx="100" ry="28" fill="#1e341e" transform="rotate(-40 -10 100)"/>
+  <ellipse cx="60" cy="20" rx="80" ry="20" fill="#152013" transform="rotate(-15 60 20)"/>
+  <ellipse cx="30" cy="140" rx="90" ry="25" fill="#1a2e1a" transform="rotate(-50 30 140)"/>
+  <ellipse cx="80" cy="170" rx="70" ry="18" fill="#172918" transform="rotate(-35 80 170)"/>
+  <ellipse cx="120" cy="80" rx="60" ry="16" fill="#1c301c" transform="rotate(-25 120 80)"/>
 
-  <!-- Línea superior e inferior animadas -->
-  <rect x="0" y="0" width="860" height="2" fill="#5865f2" opacity="0.8">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="0" y="118" width="860" height="2" fill="#5865f2" opacity="0.8">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
-  </rect>
+  <!-- hojas derecha -->
+  <ellipse cx="860" cy="60" rx="90" ry="30" fill="#1a2e1a" transform="rotate(30 860 60)"/>
+  <ellipse cx="840" cy="40" rx="70" ry="22" fill="#162414" transform="rotate(20 840 40)"/>
+  <ellipse cx="870" cy="100" rx="100" ry="28" fill="#1e341e" transform="rotate(40 870 100)"/>
+  <ellipse cx="800" cy="20" rx="80" ry="20" fill="#152013" transform="rotate(15 800 20)"/>
+  <ellipse cx="830" cy="140" rx="90" ry="25" fill="#1a2e1a" transform="rotate(50 830 140)"/>
+  <ellipse cx="780" cy="170" rx="70" ry="18" fill="#172918" transform="rotate(35 780 170)"/>
+  <ellipse cx="740" cy="80" rx="60" ry="16" fill="#1c301c" transform="rotate(25 740 80)"/>
 
-  <!-- Nota musical izquierda -->
-  <text x="60" y="72" font-size="36" fill="#5865f2" opacity="0.6" font-family="serif">♪</text>
+  <!-- velo central -->
+  <rect x="150" y="0" width="560" height="200" fill="#0d0d0d" opacity="0.55"/>
 
-  <!-- Nota musical derecha -->
-  <text x="770" y="72" font-size="36" fill="#5865f2" opacity="0.6" font-family="serif">♫</text>
-
-  <!-- Texto principal con pulso -->
-  <text x="430" y="52" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#ffffff" letter-spacing="6">
-    RΞVO
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
+  <!-- RΞVO con parpadeo neon -->
+  <text x="430" y="105" text-anchor="middle" font-family="'Courier New', monospace" font-size="72" font-weight="bold" letter-spacing="14" fill="#ffffff">
+    RΞV0
+    <animate attributeName="opacity" values="1;0.75;1;0.85;1" dur="4s" repeatCount="indefinite"/>
   </text>
 
-  <!-- Subtexto -->
-  <text x="430" y="82" text-anchor="middle" font-family="monospace" font-size="13" fill="#5865f2" letter-spacing="3">
+  <!-- subtítulo pulsante -->
+  <text x="430" y="148" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" letter-spacing="5" fill="#aaaaaa">
     ÚNETE A NUESTRA COMUNIDAD
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
   </text>
 </svg>
