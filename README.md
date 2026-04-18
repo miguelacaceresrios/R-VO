@@ -1,8 +1,11 @@
 <table align="center" width="100%"><tr valign="top"><td align="center" colspan="2">
 
-# RΞVO
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&size=32&duration=3000&pause=500&color=FFFFFF&center=true&vCenter=true&width=500&lines=R+%CE%9E+V+O;Tu+bot+de+música;24%2F7+en+tu+servidor)](https://discord.gg/tuenlace)
+
 RΞVO está activo **24/7** en los canales de voz de tu servidor, listo para sonar cuando lo necesites.
 Formamos parte de una comunidad en constante crecimiento, con miembros que hablan **español**, **árabe** e **inglés**.
+
+</td></tr>
 
 </td></tr><tr valign="top"><td align="left" width="50%">
 
@@ -62,14 +65,8 @@ Hace ping cada 5 minutos a la URL del Replit para que nunca duerma el proceso. E
 
 </td></tr><tr><td colspan="2" align="center">
 
-<!-- BANNER: cuando tengas la imagen, reemplaza la línea del <img> -->
-<!-- Coloca el archivo en ./assets/banner.png y cambia el src -->
-
-<!-- ANTES: src="https://placehold.co/860x120/23272a/ffffff?text=Únete+a+RΞVO" -->
-<!-- DESPUÉS: src="./assets/banner.png" -->
-
 <a href="https://discord.gg/tuenlace">
-  <img src="https://placehold.co/860x120/23272a/ffffff?text=Únete+a+RΞVO" alt="Únete a RΞVO" width="100%" style="border-radius:8px"/>
+  <img src="./assets/banner.svg" alt="Únete a RΞVO" width="100%"/>
 </a>
 
 </td></tr></table>
