@@ -65,7 +65,7 @@ Hace ping cada 5 minutos a la URL del Replit para que nunca duerma el proceso. E
 
 </td></tr><tr><td colspan="2" align="center">
 
-<a href="https://discord.gg/tuenlace">
+<a href="https://discord.gg/YBdfudREMU">
   <img src="./banner.svg" alt="Únete a RΞVO" width="100%"/>
 </a>
 
